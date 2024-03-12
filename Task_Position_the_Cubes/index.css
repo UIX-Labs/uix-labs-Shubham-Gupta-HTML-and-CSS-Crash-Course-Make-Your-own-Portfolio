@@ -1,1 +1,44 @@
 /*  Start coding below for POSITION THE CUBES TASK*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: #675BC6;
+}
+
+.child-1{
+    height: 20%;
+    width: 20%;
+    top:0;
+    background-color: #60B177;
+}
+
+.child-2{
+    height: 20%;
+    width: 20%;
+    top: 0;
+    background-color: #ED6D52;
+}
+
+.child-3{
+    height: 10%;
+    width: 10%;
+    background-color:#E087E8 ;
+}
+
+.child-4{
+    height: 20%;
+    width: 20%;
+    background-color:#F2A93B ;
+}
+
+.child-5{
+    height: 20%;
+    width: 20%;
+    background-color: #458EF7;
+}
