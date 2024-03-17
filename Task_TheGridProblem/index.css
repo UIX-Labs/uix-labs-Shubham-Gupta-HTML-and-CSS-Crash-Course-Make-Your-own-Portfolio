@@ -1,1 +1,11 @@
 /* Start coding below for GRID PROBLEM TASK */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    gap: 3px;
+    display: grid;
+}
