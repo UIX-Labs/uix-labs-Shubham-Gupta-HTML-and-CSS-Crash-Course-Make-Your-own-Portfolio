@@ -8,21 +8,42 @@
 .nav{
   display: flex;
   flex-direction: row;
-  gap: 7vw;
+  gap: 25vw;
   align-items: center;
+  color: #28e6ff;
+  background-color: #004572;
+  border: 2px solid #28e6ff;
+  padding: 5px;
 }
 
 ul{
   display: flex;
   flex-direction: row;
-  gap: 2vw;
+  gap: 5vw;
 }
 
 .contact{
   display: flex;
   align-items: center;
+  gap: 1vw;
+}
+.contact  button{
+    padding: 8px;
+    color: #28e6ff;
+    background-color: transparent;
+    border: 1px solid #28e6ff;
+    border-radius: 15px;
 }
 
 a{
   text-decoration: none;
+  color: #28e6ff;
+}
+
+.intro{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #004572;
 }
