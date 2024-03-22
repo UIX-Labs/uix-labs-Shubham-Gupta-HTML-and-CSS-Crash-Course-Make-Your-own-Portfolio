@@ -42,8 +42,17 @@ a{
 
 .intro{
   display: flex;
-  padding: 10px;
+  position: relative;
+  height:100%;
+  flex-direction: column;
   align-items: center;
+  color: #28e6ff;
   justify-content: center;
   background-color: #004572;
+  margin-bottom: 20px;
+}
+
+.wave1,.wave2,.wave3{
+    position: absolute;
+    width: 100%;
 }
